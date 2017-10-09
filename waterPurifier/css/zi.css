@@ -1,0 +1,387 @@
+﻿@charset "utf-8";
+.product-ul li{ margin-right: 20px;width: 285px;margin-bottom: 50px;float: left;  }
+.product-ul li:nth-child(4n+4){ margin-right: 0; }
+.product-ul li span{ display: block;width: 100%;height: 160px;overflow: hidden; }
+.product-ul li span img{ display: block;width: 100%; transition: all .3s linear;  -webkit-transition: all .3s linear; }
+.product-ul li p{ font-size: 14px;color: #666666;margin-top: 20px; text-overflow:ellipsis; white-space:nowrap;overflow:hidden;text-align: center; }
+.product-content{ padding: 80px 0;}
+.product-ul li:hover span img{ transform: scale(1.2); -webkit-transform: scale(1.2); }
+/*bc-si500*/
+.product-three{ background: #383838;height: 780px;}
+.product-three h3{ text-align: center;font-size: 18px;color: #999999; padding: 80px 0 60px;}
+.product-three h3 i{ display: block;font-size: 12px;font-style: normal;  }
+.highlights{ position: relative; }
+.highlights-icon{ width: 50px; }
+.highlights-icon a {
+    position: relative;
+    z-index: 1;
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+    overflow: hidden; 
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    }
+.highlights-icon a i{      background: url('../images/product/icon.png') no-repeat;display: block;     width: 50px;
+        height: 50px;position: relative;z-index: 1;}
+.highlights-icon a:before{ display: block;position: absolute;content: '';width: 100%;height: 100%;  background-color: #24264c;transition: all .3s linear;  -webkit-transition: all .3s linear;top: 0;right: -100%;z-index: 0; }
+.highlights-icon a:hover:before,.highlights-icon a.active:before{ right: 0;}
+
+.highlights-icon.bc-f3000 a i{background: url('../images/product/icon_bcf3000.png') no-repeat;}
+
+.highlights-icon a:first-child{ margin-top: 0; }
+.highlights-icon a:hover i.icon1,.highlights-icon a.active i.icon1{ background-position: right 0px;}
+.highlights-icon a i.icon2{ background-position: 0px -71px;}
+.highlights-icon a:hover i.icon2,.highlights-icon a.active i.icon2{ background-position: right -71px;}
+.highlights-icon a i.icon3{ background-position: 0px -141px;}
+.highlights-icon a:hover i.icon3,.highlights-icon a.active i.icon3{ background-position: right -141px;}
+.highlights-icon a i.icon4{ background-position: 0px -211px;}
+.highlights-icon a:hover i.icon4,.highlights-icon a.active i.icon4{ background-position: right -211px;}
+.highlights-icon a i.icon5{ background-position: 0px -281px;}
+.highlights-icon a:hover i.icon5,.highlights-icon a.active i.icon5{ background-position: right -281px;}
+.highlights-icon a i.icon6{ background-position: 0px -351px;}
+.highlights-icon a:hover i.icon6,.highlights-icon a.active i.icon6{ background-position: right -351px;}    
+.highlights-icon a i.icon7{ background-position: 0px -421px;}
+.highlights-icon a:hover i.icon7,.highlights-icon a.active i.icon7{ background-position: right -421px;}
+.highlights-icon a i.icon8{ background-position: 0px -492px;}
+.highlights-icon a:hover i.icon8,.highlights-icon a.active i.icon8{ background-position: right -492px;}
+
+.bc-c120-icon a i.icon7{ background-position: 0px -422px;}
+.bc-c120-icon a:hover i.icon7,.bc-c120-icon  a.active .icon7{ background-position: right -422px;}
+
+.bc-cr400-icon a i.icon7{ background-position: 0px -422px;}
+.bc-cr400-icon a:hover .icon7,.bc-cr400-icon  a.active .icon7{ background-position: right -422px;}
+
+.bc-cr400-icon a i.icon8{ background-position: 0px -493px;}
+.bc-cr400-icon a:hover .icon8,.bc-cr400-icon a.active .icon8{ background-position: right -493px;}
+
+.highlights-list{ width: 1100px;font-size: 0;height: 600px;line-height: 500px;  }
+.highlights-image{ width: 600px;text-align: center;display: inline-block;vertical-align: middle;position: relative; }
+.highlights-image img{ display: block; }
+
+.highlights-text{ width:460px;margin-left:40px;display: inline-block;vertical-align: middle; }
+.highlights-text h2{ font-size: 24px;color: #ffffff;margin-bottom: 25px;line-height: 1; }
+.highlights-text p{ font-size: 14px;color: #999999;text-align: justify;line-height: 32px; }
+.highlights-list li{ display: none;}
+.highlights-list li.active{ display: block; }
+.bc-s1500 .highlights-list1 .highlights-list-2{ position: absolute;top: 50%;left: 50%;margin-top: -215px;margin-left: -215px; }
+.bc-s1500 .highlights-list1 .highlights-list-1{ opacity: .3;width: 502px;margin: 0 auto; }
+.bc-s1500 .highlights-list2 .highlights-list-1{  }
+.bc-s1500 .highlights-list2 .highlights-list-2{ position: absolute;right: 0;top: 134px; }
+.bc-s1500 .highlights-list2 .highlights-list-3{ position: absolute;right: 0;top: -50px; }
+
+.bc-s1500 .highlights-list3 .highlights-list-1{ width: 297px;margin: 0 auto; }
+.bc-s1500 .highlights-list3 .highlights-list-2{ position: absolute;left: 50%;margin-left: -300px;top: -63px; }
+
+.bc-s1500 .highlights-list4 .highlights-list-1{ width: 365px;margin: 0 auto; }
+.bc-s1500 .highlights-list4 .highlights-list-2{ position: absolute;left: 0; top: -39px; }
+
+.bc-s1500 .highlights-list5 .highlights-list-1{ width: 365px;margin: 0 auto; }
+.bc-s1500 .highlights-list5 .highlights-list-2{ position: absolute; left: 19px;top: 40px;}
+
+.bc-s1500 .highlights-list6 .highlights-list-1{ display: inline-block;vertical-align: bottom; }
+.bc-s1500 .highlights-list6 .highlights-list-2{ display: inline-block;vertical-align: bottom; }
+
+.bc-s1500 .highlights-list7 .highlights-list-1{ width: 571px;margin: 0 auto; }
+.bc-s1500 .highlights-list7 .highlights-list-2{ position: absolute;bottom: -22px; }
+
+.installation{}
+.installation h2,.product-zhanshi h2{ font-size: 18px;color: #666666;text-align: center;padding: 30px 0 30px;}
+.installation h2 i,.product-zhanshi h2 i{ font-size: 12px;display: block;font-style: normal; }
+.installation-diagram{ font-size: 0;text-align: center; }
+
+.plan{ height: 928px;position: relative;overflow: hidden; }
+.plan li{ position: relative;float: left;width: 100%;overflow: hidden;}
+
+.plam-text{ position: absolute;left: 50%;margin-left: -600px;width: 597px;top: 29%;opacity: 0;}
+.plam-text h3{ font-size: 24px;color: #333333;margin-bottom: 20px;opacity: 0;}
+.plam-text p{ font-size: 14px;color: #4c463f;line-height: 30px;opacity: 0;}
+
+.plan-hiSlider li.active .plam-text h3{-webkit-animation:fadeInDown 1s 0s ease forwards;animation:fadeInDown 1s 0s ease forwards;}
+.plan-hiSlider li.active .plam-text p{-webkit-animation:fadeInUp 1s 0s ease forwards;animation:fadeInUp 1s 0s ease forwards;}
+.plam-text.wihite h3{ color: #fff;}
+.plam-text.wihite p{ color:rgba(255,255,255,.7);}
+.top266{ top: 260px !important; }
+.top246{ top: 246px !important; }
+.top226{ top: 226px !important; }
+.plan li img{ display: block;position: absolute;left: 50%;margin-left: -960px;width: 1920px}
+.plan-hiSlider,.plan-hiSlider li{ height: 780px; }
+
+.plan .hiSlider-pages{ text-align: center;width: 100%;bottom: 40px; }
+
+.plan .hiSlider-pages a{ width: 10px;height: 10px;background: #fff;border-radius: 100%;  -webkit-border-radius: 100%;}
+.plan .hiSlider-pages a.active{ background: none;}
+
+.plan .hiSlider-pages a.active:after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    box-sizing: border-box; 
+}
+
+/*.plan .hiSlider-btn-next:hover, .hiSlider-btn-prev:hover {
+    background-color: rgba(190,20,38,0);
+}
+.plan .hiSlider-btn-next:hover,.plan .hiSlider-btn-prev:hover {
+    background-color: rgba(190,20,38,0);
+}
+.plan .hiSlider-btn-prev {
+    background: url('../images/product/bcs1500/slign.png') no-repeat center;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+.plan .hiSlider-btn-next{    background: url('../images/product/bcs1500/slign.png') no-repeat center;}*/
+
+
+.product-suggest{ padding: 80px 0;}
+.product-subnav{ font-size: 0;text-align: center;padding-bottom: 35px; }
+.product-subnav a{ font-size: 18px;color: #666666;display: inline-block;margin: 0 40px;padding-bottom: 10px;border-bottom: 1px solid transparent; }
+.product-subnav a.active{ color: #333333;border-color: #333; }
+
+.product-service{ background: #f9f9f9;height: 260px; }
+.product-service h3{ font-size: 18px;color: #333333;text-align: center;padding: 50px 0; }
+
+.product-service-ul li{ float: left;text-align: center;width: 16.6%;float: left;}
+.product-service-ul li p{ font-size: 14px;color: #333333;margin-top: 20px; }
+.bc-c1500-icon a i{background: url('../images/product/bcc1500/icon.png') no-repeat;width: 52px;}
+  .bc-c1500-icon a { width: 52px; } /*bcc1500*/.bc-c1500 .highlights-list1 .highlights-list-1{ width: 552px;margin: 0 auto; }              .bc-c1500 .highlights-list1 .highlights-list-2{ position: absolute;top: 50%;left: 50%;margin-top: -76px;margin-left: -230px;}              .bc-c1500 .highlights-list2 .highlights-list-1{ width: 468px;margin: 0 auto; }              .bc-c1500 .highlights-list2 .highlights-list-2{ position: absolute;top: 50%;left: 50%;margin-top: -237px;margin-left: -262px;}        .bc-c1500 .highlights-list3 .highlights-list-1{ width: 426px;margin: 0 auto; }              .bc-c1500 .highlights-list3 .highlights-list-2{ position: absolute;right: 70px;bottom: 40px; }                          .bc-c1500 .highlights-list4 .highlights-list-1{ width: 485px;margin: 0 auto; }              .bc-c1500 .highlights-list4 .highlights-list-2{ position: absolute;left: 50%;top: 50%;margin-left: -144px;margin-top: -226px;}     
+
+.bc-c1500 .highlights-list5 .highlights-list-1{ width: 503px;margin: 0 auto; }              .bc-c1500 .highlights-list5 .highlights-list-2{ position: absolute;left: 50%;top: 50%;margin-left: -215px;margin-top: -215px;}     
+
+.bc-c1500 .highlights-list6 .highlights-list-1{ width: 465px;margin: 0 auto; }              .bc-c1500 .highlights-list6 .highlights-list-2{ position: absolute;left: 50%;top: 50%;margin-left: -229px;margin-top: -160px;}     
+
+.bc-c1500 .highlights-list7 .highlights-list-1{ width: 571px;margin: 0 auto; }              .bc-c1500 .highlights-list7 .highlights-list-2{ position: absolute;right: 60px;bottom: -30px; }     
+
+/*bc-cr400*/
+.bc-cr400-icon a i{background: url('../images/product/bccr400/icon.png') no-repeat;}
+.bc-cr400-icon a{width: 51px;}
+.bc-cr400 .highlights-list1 .highlights-list-1{ margin-left: 54px;opacity: 0;}
+.bc-cr400 .highlights-list1 .highlights-list-2{ position: absolute;left: 100px;bottom: 58px;z-index: 2;opacity: 0; }
+
+.bc-cr400 .highlights-list2 .highlights-list-1{ width: 362px;margin: 0 auto; }
+.bc-cr400 .highlights-list2 .highlights-list-2{ position: absolute;left: 20px;bottom: 50px;z-index: 2;opacity: 0; }
+
+.bc-cr400 .highlights-list3 .highlights-list-1{ width: 477px;margin: 0 auto; }
+.bc-cr400 .highlights-list3 .highlights-list-2{ position: absolute;left: 50%;top: 50%;margin-left: -182px;margin-top: -182px; }
+
+.bc-cr400 .highlights-list4 .highlights-list-1{ margin-left: -77px; }
+.bc-cr400 .highlights-list4 .highlights-list-2{ position: absolute;bottom: 0;left: 50%;margin-left: -240px; }              .bc-cr400 .highlights-list5 .highlights-list-1{ width: 494px;margin: 0 auto; }
+.bc-cr400 .highlights-list5 .highlights-list-2{ position: absolute;bottom: 30px;left: 50%;margin-left: -175px; }               .bc-cr400 .highlights-list6 .highlights-list-1{ width: 600px;margin: 0 auto;transform: scale(1.5);  }
+.bc-cr400 .highlights-list6 .highlights-list-2{ position: absolute;bottom: 140px;left: 50%;margin-left: -276px;z-index: 3;}.bc-cr400 .highlights-list7 .highlights-list-1{ width: 493px;margin: 0 auto;  }
+.bc-cr400 .highlights-list7 .highlights-list-2{ position: absolute;left: 50%;top: 50%;margin-left: -159.5px;margin-top: -183px;}     
+
+.bc-cr400 .highlights-list8 .highlights-list-1{ margin-left: 60px; }
+.bc-cr400 .highlights-list8 .highlights-list-2{ position: absolute;left: 23px;bottom: 6px; }
+
+/*bc-120*/
+.bc-c120-icon a i{background: url('../images/product/bcc120/icon.png') no-repeat;}
+
+.bc-c120 .highlights-list1 .highlights-list-1{ width: 520px;margin: 0 auto;}
+.bc-c120 .highlights-list1 .highlights-list-2{ position: absolute;    left: 45px;bottom: -8px;z-index: 2;}
+
+.bc-c120 .highlights-list2 .highlights-list-1{ width: 545px;margin: 0 auto;}
+.bc-c120 .highlights-list2 .highlights-list-2{ position: absolute;    left: 55px;bottom: 0px;}
+
+.bc-c120 .highlights-list3 .highlights-list-1{ width: 495px;margin: 0 auto;}
+.bc-c120 .highlights-list3 .highlights-list-2{ position: absolute;left: 50%; top: 50%;margin-left: -221px;margin-top: -141px;}
+
+.bc-c120 .highlights-list4 .highlights-list-1{ width: 487px;margin: 0 auto;}
+.bc-c120 .highlights-list4 .highlights-list-2{ position: absolute;left: 50%; top: 50%;margin-left: -288px;margin-top: -180px;}
+
+.bc-c120 .highlights-list5 .highlights-list-1{ width: 462px;margin: 0 auto;}
+.bc-c120 .highlights-list5 .highlights-list-2{ position: absolute;right: -30px;bottom: -40px; }
+
+.bc-c120 .highlights-list6 .highlights-list-1{}
+.bc-c120 .highlights-list6 .highlights-list-2{ position: absolute;left: 194px;bottom: -10px;}
+
+.bc-c120 .highlights-list7 .highlights-list-1{ width: 371px;margin: 0 auto; }
+.bc-c120 .highlights-list7 .highlights-list-2{ position: absolute;     bottom: -15px; left: 73px; }
+
+/*动画*/
+
+.z-opacity .highlights-text h2,.z-opacity  .highlights-text p{ opacity: 0;}
+.z-opacity .highlights-list-1,.z-opacity .highlights-list-2,.z-opacity .highlights-list-3{ opacity: 0;}
+.z-opacity .highlights-list-1{ z-index: 1;}
+.z-opacity .highlights-list-2{ z-index: 2;}
+.z-opacity .highlights-list-3{ z-index: 3;}
+
+/*1*/
+.bc-cr400 .highlights-list1.active .highlights-list-1{-webkit-animation:fadeInDown 1s .2s ease forwards;
+animation:fadeInDown 1s .2s ease forwards;}
+.bc-cr400 .highlights-list1.active .highlights-list-2{-webkit-animation:bounceScale 1s 1s ease forwards;animation:bounceScale 1s 1s ease forwards;}
+
+.highlights-list li.active .highlights-text h2{    -webkit-animation: fadeInDown 1s .2s ease-out forwards; animation: fadeInDown 1s .2s ease-out forwards;  }
+.highlights-list li.active .highlights-text p{-webkit-animation:fadeInUp 1s .2s ease forwards;
+animation:fadeInUp 1s .2s ease forwards; }
+
+/*2*/
+.bc-cr400 .highlights-list2.active .highlights-list-1{-webkit-animation:fadeInDown 1s .2s ease forwards;
+animation:fadeInDown 1s .2s ease forwards;}
+.bc-cr400 .highlights-list2.active .highlights-list-2{-webkit-animation:bounceScale 1s 1s ease forwards;animation:bounceScale 1s 1s ease forwards;}
+
+/*3*/
+.bc-cr400 .highlights-list3.active .highlights-list-1{-webkit-animation:rotateIn 1s .2s linear forwards;
+animation:rotateIn 1s .2s linear forwards;}
+.bc-cr400 .highlights-list3.active .highlights-list-2{-webkit-animation:bounceScale 1s 1s ease forwards;animation:bounceScale 1s 1s ease forwards;}
+
+/*4*/
+.bc-cr400 .highlights-list4.active .highlights-list-1{-webkit-animation:fadeInDown 1s .2s linear forwards;
+animation:fadeInDown 1s .2s linear forwards;}
+.bc-cr400 .highlights-list4.active .highlights-list-2{-webkit-animation:fadeInUp 1s .2s ease forwards;animation:fadeInUp 1s .2s ease forwards;}
+/*5*/
+.bc-cr400 .highlights-list5.active .highlights-list-1{-webkit-animation:fadeInDown 1s .2s linear forwards;
+animation:fadeInDown 1s .2s linear forwards;}
+.bc-cr400 .highlights-list5.active .highlights-list-2{-webkit-animation:fadeInUp 1s .2s ease forwards;animation:fadeInUp 1s .2s ease forwards;}
+/*6*/
+.bc-cr400 .highlights-list6.active .highlights-list-1{-webkit-animation:fadeInDown 1s .2s linear forwards;
+animation:fadeInDown 1s .2s linear forwards;}
+.bc-cr400 .highlights-list6.active .highlights-list-2{-webkit-animation:fadeInUp 1s .2s ease forwards;animation:fadeInUp 1s .2s ease forwards;}
+/*7*/
+.bc-cr400 .highlights-list7.active .highlights-list-1{-webkit-animation:bounceScale 1s 0s linear forwards; animation:bounceScale 1s 0s linear forwards;}
+.bc-cr400 .highlights-list7.active .highlights-list-2{-webkit-animation:fadeInDown 1s .5s ease forwards;animation:fadeInDown 1s 1s ease forwards;}
+/*8*/
+.bc-cr400 .highlights-list8.active .highlights-list-1{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-cr400 .highlights-list8.active .highlights-list-2{-webkit-animation:fadeInLeft 1s 0s ease forwards;animation:fadeInLeft 1s 0s ease forwards;}
+/*bc_c1500.aspx*/
+/*1*/
+.bc-c1500 .highlights-list1.active .highlights-list-1{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-c1500 .highlights-list1.active .highlights-list-2{-webkit-animation:fadeInLeft 1s 0s ease forwards;animation:fadeInLeft 1s 0s ease forwards;}
+
+/*2*/
+.bc-c1500 .highlights-list2.active .highlights-list-1{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-c1500 .highlights-list2.active .highlights-list-2{-webkit-animation:bounceScale 1s .8s ease forwards;animation:bounceScale 1s .8s ease forwards;}
+/*3*/
+.bc-c1500 .highlights-list3.active .highlights-list-1{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-c1500 .highlights-list3.active .highlights-list-2{-webkit-animation:bounceScale 1s .8s ease forwards;animation:bounceScale 1s .8s ease forwards;}
+/*4*/
+.bc-c1500 .highlights-list4.active .highlights-list-1{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-c1500 .highlights-list4.active .highlights-list-2{-webkit-animation:bounceIn 1s .5s ease forwards;animation:bounceIn 1s .5s ease forwards;}
+
+
+/*5*/
+.bc-c1500  .highlights-list5.active .highlights-list-1{-webkit-animation:rotateIn 1s .2s linear forwards;
+animation:rotateIn 1s .2s linear forwards;}
+.bc-c1500  .highlights-list5.active .highlights-list-2{-webkit-animation:bounceScale 1s .5s ease forwards;animation:bounceScale 1s .5s ease forwards;}
+
+/*6*/
+.bc-c1500  .highlights-list6.active .highlights-list-1{-webkit-animation:bounceScale 1s .2s linear forwards;
+animation:bounceScale 1s .2s linear forwards;}
+.bc-c1500  .highlights-list6.active .highlights-list-2{-webkit-animation:bounceInDown 1s .5s ease forwards;animation:bounceInDown 1s .5s ease forwards;}
+
+/*7*/
+.bc-c1500 .highlights-list7.active .highlights-list-1{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-c1500 .highlights-list7.active .highlights-list-2{-webkit-animation:fadeInLeft 1s 0s ease forwards;animation:fadeInLeft 1s 0s ease forwards;}
+/*bc_s1500*/
+/*1*/
+.bc-s1500 .highlights-list1.active .highlights-list-1{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-s1500 .highlights-list1.active .highlights-list-2{-webkit-animation:fadeInLeft 1s 0s ease forwards;animation:fadeInLeft 1s 0s ease forwards;}
+
+/*2*/
+.bc-s1500 .highlights-list2.active .highlights-list-1{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-s1500 .highlights-list2.active .highlights-list-2{-webkit-animation:fadeInLeft 1s 0s ease forwards;animation:fadeInLeft 1s 0s ease forwards;}
+.bc-s1500 .highlights-list2.active .highlights-list-3{-webkit-animation:bounceScale 1s .5s ease forwards;animation:bounceScale 1s .5s ease forwards;}
+/*3*/
+.bc-s1500 .highlights-list3.active .highlights-list-1{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-s1500 .highlights-list3.active .highlights-list-2{-webkit-animation:fadeInLeft 1s 0s ease forwards;animation:fadeInLeft 1s 0s ease forwards;}
+/*4*/
+.bc-s1500 .highlights-list4.active .highlights-list-1{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-s1500 .highlights-list4.active .highlights-list-2{-webkit-animation:fadeInLeft 1s 0s ease forwards;animation:fadeInLeft 1s 0s ease forwards;}
+
+/*5*/
+.bc-s1500 .highlights-list5.active .highlights-list-1{-webkit-animation:bounceScale 1s 0s linear forwards; animation:bounceScale 1s 0s linear forwards;}
+.bc-s1500 .highlights-list5.active .highlights-list-2{-webkit-animation:rotateInUpLeft 1s .5s ease forwards;animation:rotateInUpLeft 1s .5s ease forwards;}
+/*6*/
+.bc-s1500 .highlights-list6.active .highlights-list-1{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-s1500 .highlights-list6.active .highlights-list-2{-webkit-animation:fadeInLeft 1s 0s ease forwards;animation:fadeInLeft 1s 0s ease forwards;}
+/*7*/
+
+.bc-s1500 .highlights-list7.active .highlights-list-1{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-s1500 .highlights-list7.active .highlights-list-2{-webkit-animation:fadeInLeft 1s 0s ease forwards;animation:fadeInLeft 1s 0s ease forwards;}
+
+/*bc-c120*/
+/*1*/
+.bc-c120 .highlights-list1.active .highlights-list-1{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-c120 .highlights-list1.active .highlights-list-2{-webkit-animation:fadeInLeft 1s 0s ease forwards;animation:fadeInLeft 1s 0s ease forwards;}
+
+/*2*/
+.bc-c120 .highlights-list2.active .highlights-list-1{-webkit-animation:fadeInDown 1s 0s linear forwards; animation:fadeInDown 1s 0s linear forwards;}
+.bc-c120 .highlights-list2.active .highlights-list-2{-webkit-animation:bounceScale 1s 1s ease forwards;animation:bounceScale 1s 1s ease forwards;}
+
+/*3*/
+.bc-c120 .highlights-list3.active .highlights-list-1{-webkit-animation:bounceInUp 1s 0s linear forwards; animation:bounceInUp 1s 0s linear forwards;}
+.bc-c120 .highlights-list3.active .highlights-list-2{-webkit-animation:bounceScale 1s 1s ease forwards;animation:bounceScale 1s 1s ease forwards;}
+
+/*4*/
+.bc-c120 .highlights-list4.active .highlights-list-1{-webkit-animation:bounceIn 1s 0s linear forwards; animation:bounceIn 1s 0s linear forwards;}
+.bc-c120 .highlights-list4.active .highlights-list-2{-webkit-animation:bounceScale 1s 1s ease forwards;animation:bounceScale 1s 1s ease forwards;}
+
+/*5*/
+.bc-c120 .highlights-list5.active .highlights-list-1{-webkit-animation:fadeInLeft 1s 0s linear forwards; animation:fadeInLeft 1s 0s linear forwards;}
+.bc-c120 .highlights-list5.active .highlights-list-2{-webkit-animation:fadeInRight 1s 0s ease forwards;animation:fadeInRight 1s 0s ease forwards;}
+/*6*/
+.bc-c120 .highlights-list6.active .highlights-list-1{-webkit-animation:fadeInLeft 1s 0s linear forwards; animation:fadeInLeft 1s 0s linear forwards;}
+.bc-c120 .highlights-list6.active .highlights-list-2{-webkit-animation:fadeInRight 1s 0s ease forwards;animation:fadeInRight 1s 0s ease forwards;}
+/*7*/
+.bc-c120 .highlights-list7.active .highlights-list-1{-webkit-animation:fadeInUp 1s 0s linear forwards; animation:fadeInUp 1s 0s linear forwards;}
+.bc-c120 .highlights-list7.active .highlights-list-2{-webkit-animation:bounceScale 1s 0s ease forwards;animation:bounceScale 1s 0s ease forwards;}
+
+
+
+/*bc-f3000*/
+/*1*/
+.bc-f3000 .highlights-list1.active .highlights-list-2{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-f3000 .highlights-list1.active .highlights-list-1{-webkit-animation:bounceScale 1s .5s ease forwards;animation:bounceScale 1s .5s ease forwards;}
+
+.bc-f3000 .highlights-list2.active .highlights-list-2{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-f3000 .highlights-list2.active .highlights-list-1{-webkit-animation:bounceScale 1s .5s ease forwards;animation:bounceScale 1s .5s ease forwards;z-index: 4;}
+
+.bc-f3000 .highlights-list3.active .highlights-list-2{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-f3000 .highlights-list3.active .highlights-list-1{-webkit-animation:fadeInLeft 1s 0s ease forwards;animation:fadeInLeft 1s 0s ease forwards;z-index: 4;}
+
+.bc-f3000 .highlights-list4.active .highlights-list-2{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-f3000 .highlights-list4.active .highlights-list-1{-webkit-animation:fadeInLeft 1s 0s ease forwards;animation:fadeInLeft 1s 0s ease forwards;z-index: 4;}
+
+
+
+
+.bc-f3000 .highlights-list5.active .highlights-list-2{-webkit-animation:fadeInRight 1s 0s linear forwards; animation:fadeInRight 1s 0s linear forwards;}
+.bc-f3000 .highlights-list5.active .highlights-list-1{-webkit-animation:bounceScale 1s .3s ease forwards;animation:bounceScale 1s .3s ease forwards;z-index: 4;}
+
+
+.about p{ font-size: 16px;line-height: 26px;text-align: justify;text-indent: 33px;  }
+.about{ padding: 50px; }
+.about img{ width: 100%;display: block;margin-top: 30px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

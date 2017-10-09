@@ -1,0 +1,10 @@
+.hiSlider-pages,.hiSlider-title{position:absolute;z-index:3}
+.hiSlider-btn-prev,.hiSlider-btn-next{position:absolute;width:50px;height:50px !important;z-index:10;cursor:pointer;top:50%;margin-top: -40px;z-index: 100 !important;font-size: 0px; transition:all 0.3s; -moz-transition:all 0.3s;-o-transition:all 0.3s;-webkit-transition:all 0.3s;}
+.hiSlider-btn-prev{left:25px;background: url(../images/left.png) no-repeat center rgba(0,0,0,0.4);}
+.hiSlider-btn-next{right:25px;background: url(../images/right.png) no-repeat center rgba(0,0,0,0.4);}
+.hiSlider-btn-next:hover,.hiSlider-btn-prev:hover{background-color:rgba(190,20,38,0.6); }
+.hiSlider-title{display:none !important;bottom:0;width:100%;padding:6px 0;color:#fff;text-indent:10px;background:rgba(0,0,0,.6);z-index:2;font:14px/2 "Microsoft YaHei",Arial,Tahoma}
+.hiSlider-pages{bottom:10px;right:0px;text-align:right}
+.hiSlider-pages a{height:7px;width:7px;margin:0 6px;display:inline-block;text-indent:-100px;font-size:0;border-radius:50%;background:#b5b5b6;position: relative;}
+.hiSlider-pages a.active{background:#be1426;}
+.hiSlider-pages a.active:after{content: "";width: 15px;height: 15px; border:1px solid #b5b5b6;border-radius: 100%;position: absolute;left: -5px; top: -5px;}
